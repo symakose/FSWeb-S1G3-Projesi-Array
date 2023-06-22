@@ -28,6 +28,7 @@ const orijinalTatlar = [
   "Çilek",
   "Vanilya",
 ];
+
 function tumTatlar() {
   return orijinalTatlar;
 }
@@ -107,7 +108,6 @@ console.log(sonCesitiKaldir(orijinalTatlar));
 
 /* Görev 5:
 Dizideki belirli bir indeksteki çeşniyi döndüren bir işlev yazın.
-
 Aşağıdakileri yapmak için aşağıdaki indekstekiCesitiGetir işlevini kullanın:
    1. İlk parametrede tatlar dizisini argüman olarak alacak bir dizi alın
    2. İkinci parametrede argüman olarak istenen dizini alacak bir sayı alın
